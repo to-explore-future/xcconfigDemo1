@@ -1,0 +1,14 @@
+//
+//  JKRelease.xcconfig
+//  xcconfigDemo
+//
+//  Created by tcxt on 2021/4/6.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "JKCommon.xcconfig"
+// 正式下基础的URL   提示：在 //之间使用 $()来转义，如：JKURL = @"https:/$()/app.com/api/api/"
+JKURL = @"https:/$()/app.com/api/api/release"
+// 是正式的环境
+JK_IS_PRODUCATION = YES

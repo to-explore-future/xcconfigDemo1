@@ -1,0 +1,10 @@
+//
+//  JKCommon.xcconfig
+//  xcconfigDemo
+//
+//  Created by tcxt on 2021/4/6.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) JKURL='$(JKURL)' JK_IS_PRODUCATION='$(JK_IS_PRODUCATION)'

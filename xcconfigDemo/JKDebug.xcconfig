@@ -1,0 +1,14 @@
+//
+//  JKDebug.xcconfig
+//  xcconfigDemo
+//
+//  Created by tcxt on 2021/4/6.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "JKCommon.xcconfig"
+// 测试下基础的URL
+JKURL = @"https:/$()/test.com/api/api/debug"
+// 是测试的环境
+JK_IS_PRODUCATION = NO
